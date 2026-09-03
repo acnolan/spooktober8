@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://v3g7banjp2u5"
+path="res://.godot/imported/Typing_1.mp3-dff340d4e1d5f9655f9147aab8bef192.mp3str"
+
+[deps]
+
+source_file="res://Sounds/Sound Effects/Typing_1.mp3"
+dest_files=["res://.godot/imported/Typing_1.mp3-dff340d4e1d5f9655f9147aab8bef192.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
