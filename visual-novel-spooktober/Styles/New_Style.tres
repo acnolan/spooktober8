@@ -38,7 +38,7 @@ overrides = {
 "box_color_use_global": "false",
 "box_panel": "\"res://Styles/new_style_box_texture.tres\"",
 "box_size": "Vector2(1000, 350)",
-"name_label_box_modulate": "Color(0.437909, 0.31085995, 0.54296875, 1)",
+"name_label_box_modulate": "Color(0.30096734, 0.20324427, 0.375, 1)",
 "name_label_box_offset": "Vector2(75, 35)",
 "name_label_box_use_global_color": "false",
 "next_indicator_position_offset": "Vector2(30, -80)",
