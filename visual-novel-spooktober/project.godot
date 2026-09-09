@@ -65,7 +65,11 @@ audio/channel_defaults={
 glossary/default_case_sensitive=true
 layout/style_list=["res://Styles/New_Style.tres"]
 layout/default_style="res://Styles/New_Style.tres"
-variables={}
+variables={
+"bad": 0,
+"chef": 0,
+"therapist": 0
+}
 
 [display]
 

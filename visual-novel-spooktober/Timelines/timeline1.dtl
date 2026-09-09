@@ -5,5 +5,16 @@ Kai: Welcome good sir. We have a visual novel on our hands.
 Kai: A way a lone a lost a last a loved a long the riverrun, past Eve and Adam's from swerve of shore to bend of bay, brings us by a commodius vicus of recirculation back to Howth Castle and Environs
 - No
 	Kai: Why???
+	set {chef} += 1.0
 - Yes
 	Kai: Good choice
+	set {therapist} += 1.0
+- Evil option
+	Kai: Dude, why would you say that?? Fuck you.
+	set {bad} += 1.0
+if {chef} == 1.0:
+	Kai: I am a chef now
+elif {therapist} == 1.0:
+	Kai: I am a therapist forever now
+elif {bad} == 1.0:
+	Kai: This is the evil ending \:(
