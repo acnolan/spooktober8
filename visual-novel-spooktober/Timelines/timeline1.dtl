@@ -1,16 +1,19 @@
-join  center
+join Kai leftmost
 Kai: Hello, how are you doing?
-Kai: hi hi hi nice to see you
-Kai: Welcome good sir. We have a visual novel on our hands.
-Kai: A way a lone a lost a last a loved a long the riverrun, past Eve and Adam's from swerve of shore to bend of bay, brings us by a commodius vicus of recirculation back to Howth Castle and Environs
+join Boss rightmost
+Boss: Whats up Kai
+Kai: I wanted to talk to you about something. I was thinking..
+Kai: Ive been working really hard and I would like to request to take off next -
+Boss: Hey what do you think about this new office setup? I'm thinking I liked how it looked before. I'm leaving soon anyway though, not my problem I guess. Globble Globble
+Boss: You know I think you might actually, globble globble, be a good fit for this position. What do you think?
 - No
-	Kai: Why???
+	Boss: Why??? I knew a human could never be a good employee. Ungrateful trash buckets. Glob glob
 	set {chef} += 1.0
 - Yes
-	Kai: Good choice
+	Boss: Wonderful! I've got your 80 year contract right here. Just sign here and here. Glub Glub
 	set {therapist} += 1.0
 - Evil option
-	Kai: Dude, why would you say that?? Fuck you.
+	Boss: Dude, why would you say that?? Fuck you. You're fired. But I expect you to come in next week. Glob. We still have that deadline to meet. Glob. Fuck you.
 	set {bad} += 1.0
 if {chef} == 1.0:
 	Kai: I am a chef now

@@ -21,6 +21,7 @@ Dialogic="*uid://ds2q0uclmolvu"
 [dialogic]
 
 directories/dch_directory={
+"Boss": "res://Characters/Boss.dch",
 "Kai": "res://Characters/Kai.dch"
 }
 directories/dtl_directory={
@@ -70,6 +71,8 @@ variables={
 "chef": 0,
 "therapist": 0
 }
+animations/join_default="Zoom In"
+animations/leave_default="Zoom Out"
 
 [display]
 
