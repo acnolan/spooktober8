@@ -1,10 +1,13 @@
+[background arg="res://Assets/Backgrounds/TestBackground1.png" fade="0.0"]
+audio "res://Sounds/Music/jorisvermeer-goofy-cartoon-music-594410.mp3" [volume="-27.0"]
 join Kai leftmost
 Kai: Hello, how are you doing?
 join Boss rightmost
 Boss: Whats up Kai
 Kai: I wanted to talk to you about something. I was thinking..
 Kai: Ive been working really hard and I would like to request to take off next -
-Boss: Hey what do you think about this new office setup? I'm thinking I liked how it looked before. I'm leaving soon anyway though, not my problem I guess. Globble Globble
+Boss: Hey what do you think about this new office setup? I'm thinking I liked how it looked before. I'm leaving soon anyway, not my problem I guess. Globble Globble
+Kai: Oh um yes, but -
 Boss: You know I think you might actually, globble globble, be a good fit for this position. What do you think?
 - No
 	Boss: Why??? I knew a human could never be a good employee. Ungrateful trash buckets. Glob glob
