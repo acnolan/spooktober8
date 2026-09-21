@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://b4ljpwxhh1ppr"]
+
+[ext_resource type="Texture2D" uid="uid://7koqmyqky6lu" path="res://Assets/Backgrounds/Title_Screen.png" id="1_klylv"]
+[ext_resource type="Script" uid="uid://565ms0lx5vbi" path="res://Scripts/title_screen.gd" id="1_p3fck"]
+
+[node name="CanvasLayer" type="CanvasLayer" unique_id=296368729]
+script = ExtResource("1_p3fck")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1468783755]
+position = Vector2(960, 540)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_klylv")
+
+[node name="PlayButton" type="Button" parent="." unique_id=2024221040]
+offset_left = 1449.0
+offset_top = 676.0
+offset_right = 1548.0
+offset_bottom = 731.0
+text = "Begin"
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]
