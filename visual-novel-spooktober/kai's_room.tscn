@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://t86wkvf6q6gn"]
+
+[ext_resource type="PackedScene" uid="uid://cjd5hiedpogeu" path="res://player.tscn" id="1_ebc76"]
+
+[node name="Kai\'s Room" type="Node2D" unique_id=1407912287]
+
+[node name="Player" parent="." unique_id=1251598692 instance=ExtResource("1_ebc76")]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=444135774]

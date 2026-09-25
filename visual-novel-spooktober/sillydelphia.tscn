@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://csowye0m03y6h"]
+
+[ext_resource type="PackedScene" uid="uid://cjd5hiedpogeu" path="res://player.tscn" id="1_tdvip"]
+[ext_resource type="Script" uid="uid://u6335nou3f8j" path="res://camera_2d_Follow.gd" id="2_321we"]
+
+[node name="Sillydelphia" type="Node2D" unique_id=692958880]
+
+[node name="Player" parent="." unique_id=1251598692 instance=ExtResource("1_tdvip")]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1718137040 node_paths=PackedStringArray("target")]
+script = ExtResource("2_321we")
+target = NodePath("../Player")
