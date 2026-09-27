@@ -8,6 +8,10 @@ var facing: String = "down"
 
 
 func _physics_process(_delta: float) -> void:
+	
+	if Dialogic.current_timeline != null: 
+		return
+		
 	var input_dir: Vector2 = Input.get_vector("move_left", "move_right", "move_up", "move_down")
 
 	velocity = input_dir * speed
