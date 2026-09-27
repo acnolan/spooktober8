@@ -1,9 +1,19 @@
 [gd_scene format=3 uid="uid://t86wkvf6q6gn"]
 
+[ext_resource type="Texture2D" uid="uid://hb6oe0iykupj" path="res://Assets/Backgrounds/Kais Room colored copy in game.png" id="1_5qpyc"]
 [ext_resource type="PackedScene" uid="uid://cjd5hiedpogeu" path="res://player.tscn" id="1_ebc76"]
 
 [node name="Kai\'s Room" type="Node2D" unique_id=1407912287]
 
+[node name="Background" type="Sprite2D" parent="." unique_id=94546190]
+texture = ExtResource("1_5qpyc")
+
 [node name="Player" parent="." unique_id=1251598692 instance=ExtResource("1_ebc76")]
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=444135774]
+
+[node name="walls" type="StaticBody2D" parent="." unique_id=1833944490]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="walls" unique_id=1958318685]
+build_mode = 1
+polygon = PackedVector2Array(-723, 94, -59, -340, 589, 91, 287, 297, 236, 330, -58, 531)
