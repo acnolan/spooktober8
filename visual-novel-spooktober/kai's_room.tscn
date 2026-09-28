@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://cnhkgy4vigabh" path="res://Scenes/pause_menu.tscn" id="2_2ltk1"]
 [ext_resource type="PackedScene" uid="uid://dk2fgf2kged15" path="res://npc.tscn" id="3_77gya"]
 
-[node name="Kai\'s Room" type="Node2D" unique_id=1407912287]
+[node name="kai\'s_room" type="Node2D" unique_id=1407912287]
 script = ExtResource("1_11kew")
 
 [node name="Background" type="Sprite2D" parent="." unique_id=94546190]
