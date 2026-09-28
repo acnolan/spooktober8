@@ -1,17 +1,18 @@
 [gd_scene format=3 uid="uid://t86wkvf6q6gn"]
 
 [ext_resource type="Texture2D" uid="uid://hb6oe0iykupj" path="res://Assets/Backgrounds/Kais Room colored copy in game.png" id="1_5qpyc"]
+[ext_resource type="Script" uid="uid://3mbhfweqwo6e" path="res://kai's_room.gd" id="1_11kew"]
 [ext_resource type="PackedScene" uid="uid://cjd5hiedpogeu" path="res://player.tscn" id="1_ebc76"]
+[ext_resource type="PackedScene" uid="uid://cnhkgy4vigabh" path="res://Scenes/pause_menu.tscn" id="2_2ltk1"]
 [ext_resource type="PackedScene" uid="uid://dk2fgf2kged15" path="res://npc.tscn" id="3_77gya"]
 
 [node name="Kai\'s Room" type="Node2D" unique_id=1407912287]
+script = ExtResource("1_11kew")
 
 [node name="Background" type="Sprite2D" parent="." unique_id=94546190]
 texture = ExtResource("1_5qpyc")
 
 [node name="Player" parent="." unique_id=1251598692 instance=ExtResource("1_ebc76")]
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=444135774]
 
 [node name="walls" type="StaticBody2D" parent="." unique_id=1833944490]
 
@@ -21,3 +22,12 @@ polygon = PackedVector2Array(-723, 94, -59, -340, 589, 91, 287, 297, 236, 330, -
 
 [node name="NPC" parent="walls" unique_id=2054807768 instance=ExtResource("3_77gya")]
 position = Vector2(-354, 63)
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=444135774]
+
+[node name="PauseMenu" parent="Camera2D" unique_id=236208500 instance=ExtResource("2_2ltk1")]
+visible = false
+offset_left = -58.0
+offset_top = -48.0
+offset_right = -58.0
+offset_bottom = -48.0
