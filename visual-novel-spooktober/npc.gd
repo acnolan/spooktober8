@@ -1,6 +1,6 @@
 extends Area2D
 
-@export var timeline: String = "timeline1"
+@export var timeline: String = "timeline_friend"
 
 var player_in_range = false
 

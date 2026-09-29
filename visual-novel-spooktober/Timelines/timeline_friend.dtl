@@ -1,0 +1,29 @@
+join Kai (home_happy) left [animation="Fade In" wait="true"]
+join george_friend right
+Kai (home_happy): Hey George! Long time no see! How are you doing?
+george_friend: Sup Kai! Its good
+leave george_friend
+join vampire center
+vampire: Lets work together forver. Ill give you a big raise!
+Kai (home_neutral): Umm who are you?
+leave vampire
+join Boss right
+Boss: Im gonna need you to work overtime today.
+Kai (Neutral_Work): Yes Sir!
+leave Boss
+join mermaid right
+mermaid: Can you give me swim lessons?
+Kai (home_neutral): I don't even know how to swim.
+leave mermaid
+join alien right
+alien: )!(*&#@)*_!@#*!+@*#
+Kai (home_sad): Oh no, thats horrible...I'm sorry that happened.
+leave alien
+join Werewolf right
+Werewolf: woof woof
+Kai (home_neutral): Look I get it but you already have so much hair. I don't think anyone will notice.
+leave Werewolf
+join smallfoot right
+smallfoot: my feet are too small D\:
+Kai (home_sad): Theres nothing I can do about that.
+leave smallfoot
