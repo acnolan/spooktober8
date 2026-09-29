@@ -1,15 +1,14 @@
 [gd_scene format=3 uid="uid://b4ljpwxhh1ppr"]
 
-[ext_resource type="Texture2D" uid="uid://7koqmyqky6lu" path="res://Assets/Backgrounds/Title_Screen.png" id="1_klylv"]
 [ext_resource type="Script" uid="uid://565ms0lx5vbi" path="res://Scripts/title_screen.gd" id="1_p3fck"]
+[ext_resource type="Texture2D" uid="uid://c206crfa25ock" path="res://Assets/Backgrounds/Main Menu.png" id="2_p3fck"]
 
 [node name="CanvasLayer" type="CanvasLayer" unique_id=296368729]
 script = ExtResource("1_p3fck")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1468783755]
 position = Vector2(960, 540)
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("1_klylv")
+texture = ExtResource("2_p3fck")
 
 [node name="NewGameButton" type="Button" parent="." unique_id=2024221040]
 offset_left = 1435.0
@@ -26,6 +25,6 @@ offset_bottom = 777.0
 text = "Continue
 "
 
-[connection signal="pressed" from="NewGameButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="NewGameButton" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="NewGameButton" to="." method="_on_play_button_pressed"]
 [connection signal="pressed" from="LoadGameButton" to="." method="_on_load_game_button_pressed"]
