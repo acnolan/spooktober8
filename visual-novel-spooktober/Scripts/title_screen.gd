@@ -3,7 +3,7 @@ extends CanvasLayer
 
 
 func _on_play_button_pressed() -> void:
-	get_tree().change_scene_to_file("res://kai's_room.tscn")
+	get_tree().change_scene_to_file("res://master.tscn")
 
 func _on_load_game_button_pressed() -> void:
 	var path = "user://savegame.json"
