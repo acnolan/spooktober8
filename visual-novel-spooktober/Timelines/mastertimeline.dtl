@@ -1,0 +1,302 @@
+[background arg="res://Assets/Backgrounds/black wall.png" fade="0.0"]
+Kai wakes up in their apartment.
+Kai takes the green line in Sillydelphia to work. Their commute takes 34 minutes.
+Kai almost falls asleep before waking up just in time for their stop.
+We arrive at BetterBrain, Sillydelphia's largest federal mental health services center. It specializes in therapy for monsters.
+A historic company that has been servicing the community for seemingly forever...
+[wait time="1.3"]
+[background arg="res://Assets/Backgrounds/Kai's monster office final.png" fade="0.0"]
+[wait time="1.8"]
+join "vampire left" left
+join smallfoot right
+vampire: They aren't that small.
+smallfoot: But they're supposed to be big. My father’s were big, my father’s father's were big. It's a part of the family legacy.
+vampire: But do you have any actual problems with them? Are you off balance? Do you feel pain?
+smallfoot: They're hideous! Can't you see them?
+vampire: You know. Maybe I have someone that could help you instead. Are you okay with a human practitioner?
+smallfoot: I... I guess so.
+leave "vampire left"
+leave smallfoot
+join Kai (Neutral_Work) left
+join vampire right
+vampire:  Kai, are you able to handle a smallfooted Bigfoot?
+Kai: I'm in the middle of a call
+vampire: Good, good, Smallfoot I'm sure Kai will take excellent care of you.
+leave vampire
+join smallfoot right
+Kai: (On the Phone) Sorry someone just stepped into my office.
+Kai: What brings you in today?
+smallfoot:  I have incredibly small feet.
+Kai: And how does that make you feel?
+smallfoot:  It makes me feel so ugly. I feel like I have to hide them all the time.
+Kai: And what makes them ugly to you?
+smallfoot:  I... I am the only one. Every other Bigfoot has massive beautiful feet. When hikers in the woods see their footprint, they stop and stare and take photos and molds. 
+smallfoot: They're the scariest footprint of them all. A hiker finds my footprint in the woods and they think some human was just walking barefoot. No fear. No photos. Embarrassing.
+Kai:  So you want your footprint to be intimidating?
+smallfoot:  Of course! How else will anyone know I exist in the woods!
+Kai: Well, what if you let the humans find you?
+smallfoot:  Find me?
+Kai: Yeah, if your footprints are human sized, it would be easier to surprise them, wouldn’t it?
+smallfoot: You mean, get up close? No one has done that since they took a video of my uncle.
+Kai: Well if no one has seen a bigfoot up close since your uncle, how would they know Bigfoots are all big-footed?
+smallfoot:  What are you saying?
+Kai: I’m saying you can forge your own path, with your own feet, and not compare yourself to the rest of your family. You might be more terrifying than you think.
+smallfoot:  I could sneak up on them...
+Kai: Yeah dude, your feet could be a huge help.
+smallfoot: I think... I think I should go to the woods and try this out.
+Kai:  Yeah, knock yourself out buddy. And maybe stop calling yourself smallfoot?
+smallfoot:  Why?
+Kai: It feels like it's normalized negative self-talk.
+smallfoot:  What about Daryl?
+Kai: Terrifying. Formidable.
+smallfoot: Thank you
+leave smallfoot
+leave Kai
+[wait time="2.5"]
+[background arg="res://Assets/Backgrounds/black wall.png" fade="0.0"]
+Kai spends the remainder of the day doing paperwork.
+Kai noodles on the saxophone briefly before going to bed
+Kai chats on the phone with old friend Sam before bed
+[wait time="2.0"]
+[background arg="res://Assets/Backgrounds/Kai's Room.png" fade="0.0"]
+join Kai (home_happy) left
+george_friend: (On the Phone)....Yeah she’s due for some time next fall
+Kai:  That’s incredible, Sam, I’m so happy for you.
+george_friend:  I know, I’m trying to get as ready as I can before the baby comes. It still doesn’t feel real.
+Kai:  I know you’ll be a great parent.
+george_friend: Yeah, I kind of wish you were back home though. I feel like you’d be a great babysitter.
+Kai: I’m flattered. How is it back home?
+george_friend:  Same old for the most part. A new ice cream shop is opening next door, so that’ll be nice once it’s open.
+Kai: That sounds nice. Do you remember the old one we used to go to when we were kids? What was it, Gooey’s?
+george_friend:  Yeah, I remember. They’ve been closed for a while now haven’t they?
+Kai: They closed?
+george_friend:  Yeah, it’s been like three years. Remember when you were over last and we ordered pizza?
+Kai: Mhm
+george_friend: That pizza parlor is where Gooey’s used to be.
+Kai: Oh... you know I should’ve bought their novelty shirts before they closed.
+george_friend:  That would’ve been funny. Ally is asking what I’m doing up so late, so I think I have to go. I’ll talk to you later, Kai.
+Kai: See you Sam
+[wait time="1.5"]
+leave Kai
+Kai walks to his balcony
+[background arg="res://Assets/Backgrounds/sillydelphia skyline.png" fade="0.0"]
+Kai gets lost looking at the skyline
+[wait time="5.0"]
+Kai lays down and falls asleep.
+[background arg="res://Assets/Backgrounds/black wall.png" fade="0.0"]
+[wait time="2.0"]
+Kai wakes up and cooks over easy eggs before getting dressed for work.
+Kai walks into BetterBrain's office building.
+[background arg="res://Assets/Backgrounds/Kai's monster office final.png" fade="0.0"]
+[wait time="1.5"]
+join vampire right
+join Kai (Neutral_Work) left
+vampire: So Kai, how was ol’ what’s his name yesterday? Smallfoot?
+Kai:  I think they go by Daryl now
+vampire: That’s certainly a dumb name. Well, did you get to the root of Daryl’s issues? I see he’s not listed on any of the calendars anymore.
+Kai:  Yeah I think we landed on a resolution. It seemed like all he needed was a different angle on the whole foot-thing.
+vampire: A different angle? I’m sorry Kai, but it couldn’t have been that simple.
+Kai: No I feel like all he really needed was some direction.
+vampire:  Well bring me the notes from that session and I’ll see for myself.
+leave vampire
+leave Kai
+[background arg="res://Assets/Backgrounds/Kai's Room.png" fade="0.0"]
+After work Kai makes another phone call to Sam
+join Kai (home_happy) left
+george_friend: How is your car holding up?
+Kai:  I actually have had a flat for the past few weeks. That’s Sillydelphia infrastructure for you.
+george_friend: How have you been getting to work?
+Kai:  I’ve been going by bus. It's not great, but I just can't afford the tow and the new tire and all that right now.
+george_friend:  Do you think you could get an advance at work?
+Kai:  Probably not. I'd either need a raise or to pay off my loans first before I can get it finished. Plus my parents on top of all that...
+george_friend:  I'm sorry Kai, I didn’t mean to stress you out.
+Kai:  It's okay, once rent is paid I have about 2 weeks until I need to stress again.
+george_friend:  It sounds like you're burning yourself out
+Kai:  The rest of life can't just be this over and over again, can it?
+george_friend: I'm sure it will change one day
+george_friend: ....
+george_friend: You'd be proud of me, Kai. I'm really cooking up a storm.
+Kai: Oh really?
+george_friend: Microwaving hotdogs. It's the finest Wednesday night cuisine. By the way, we should play some music together soon.
+Kai: I have literally not played since high school. I would be terrible.
+Kai starts to cook while on the phone.
+Kai is reading off a recipe, but quickly goes off course
+Kai: (Thinking to themself) Eh, recipes are just suggestions at the end of the day.
+Kai is improvising and styling
+Kai has those low-budget novelty recipe components
+Kai looks over to the sparse cabinets and stacked bills, but Kai is overly satisfied with eating that delicacy they whipped up
+Kai eats it and it is delicious
+Kai cleans the plate and looks over to the beautifully prepared meal then looks to the sparse cabinet and chuckles at the fact they could create a michelin star meal with such modest ingredients
+[background arg="res://Assets/Backgrounds/black wall.png" fade="0.0"]
+Kai finishes the call and gets ready for bed.
+Kai goes to sleep
+Kai gets ready for yet another day at the office. They bus to work.
+[wait time="1.0"]
+[background arg="res://Assets/Backgrounds/Kai's monster office final.png" fade="0.0"]
+join Kai (Neutral_Work) left
+join vampire right
+vampire:  I found your notes from last session. Convinced Smallfoot he's scary afterall, huh? Impressive.
+Kai:  Thanks
+vampire: You also convinced him that he no longer needs professional help. You really think he's cured?
+Kai: Cured? Gabriela, I have an appointment to get to. Can we talk about this later?
+vampire: Fine. Have fun dealing with this little freak
+leave vampire
+[wait time="2.0"]
+join mermaid right
+Kai:  Hello, I’m Kai, what brings you in today?
+mermaid:  Hello, Kai. I have been having this issue lately. You see, most mermaids... don’t quite look like me. Human top, fish bottom. I have a bit of the reverse going on.
+Kai:  I see...
+mermaid:  All my life, my people called me “fish face” and “stupid leg boy” and it has been delightful to receive such praise.
+Kai: uh huh
+mermaid:  But recently, I was trying out for the school swim team, and I just didn’t make the cut this year. To think, a mermaid that is terrible at swimming.
+mermaid: There were mummies ahead of me. Other mermaids too. But there I was, dead last. I just feel like I was made for something else.
+Kai: That is pretty common I would say. When would you say this all started?
+mermaid:  I think it has been the past two years. I feel like I’ve just been treading water.
+mermaid: Making due with what I have, even though it is not quite right for me.
+mermaid:  Have you ever felt like that?
+Kai:  I think everyone can feel like that from time to time.
+Kai:  When I was going to school for therapy, there were a few times where I felt like I was coming in last place.
+It's tough. It makes you question everything, but I made it out to the real world and found success.
+mermaid: And you like what you do?
+Kai: ] I have so many monsters relying on me. It’s hard to not show up everyday.
+mermaid: And you like it?
+Kai:  I think this is supposed to be your therapy session, isn’t it?  Well your human legs are pretty unique.
+mermaid:  And terrifying
+Kai: And terrifying. Why did you want to swim again?
+mermaid:  To chase after humans. All mermaids know that the best way to chase is swimming. It’s the fastest way.
+Kai: But you have human legs, and they have fish tails
+mermaid:  Yes
+Kai: Why don’t you just run after them?
+mermaid:  ...oh my god
+Kai: .......
+ I... I am going to try out for the track team!
+Kai: I’m happy for you, buddy
+[wait time="1.9"]
+leave mermaid
+leave Kai
+[background arg="res://Assets/Backgrounds/black wall.png" fade="0.0"]
+Kai goes home, but after last nights meal they have less to cook with, yet still makes a humble little dinner
+Kai goes to bed thinking about what the mermaid with human legs said. Kai tosses and turns and eventually falls asleep.
+Kai wanders their way into the office the next day desperately in need of some coffee.
+[background arg="res://Assets/Backgrounds/Kai's monster office final.png" fade="0.0"]
+join Kai left
+join vampire right
+vampire:  Kai, you could truly have a future in talk therapy
+Admittedly it is a little silly to perform therapy on monsters due to the... nature of their issues
+vampire:  Yes, yes of course, monster issues are silly indeed
+vampire: You would likely benefit by working with the owner of the practice\: Boss Squonk
+Kai: I don’t know, I feel like I’m doing fine here
+[wait time="1.9"]
+leave vampire
+leave Kai
+[background arg="res://Assets/Backgrounds/black wall.png" fade="0.0"]
+Kai doesn’t immediately accept offer to work with Squonk and continues to therapize monsters that come into the practice
+Gabriel gives Kai clients that he knows Kai can easily dissect
+Kai goes home and has a call with their parents
+Lots of tension in this call
+[background arg="res://Assets/Backgrounds/Kai's Room.png" fade="0.0"]
+join Kai (home_neutral) left
+Parents: Maybe one day you’ll be a real therapist
+Kai:  I don’t know, I mean if it’s in the cards, then sure, but...
+Kai looks at the mess around the apartment, the sax gathering dust, the pans in the sink, the piling bills
+After the phone call with their parents, Kai talks to their friends. They ask if Kai can host dinner for them one night so they can finally see their place
+Kai looks around the mess of an apartment and dreads it, but they say ‘yes’ anyway
+Kai chips the reed to their saxophone
+Kai yet again ignores the bills in the corner
+leave Kai
+[wait time="1.8"]
+[background arg="res://Assets/Backgrounds/black wall.png" fade="0.0"]
+Kai goes to work the next day without cleaning any of the apartment yet. They can do it tomorrow.
+[wait time="1.9"]
+[background arg="res://Assets/Backgrounds/Kai's monster office final.png" fade="0.0"]
+Gabriel can’t get Kai to focus at work, Kai just isn’t paying attention to what the clients are saying today
+Kai talks about the bills piling up at the apartment and Gabriel says ‘maybe Boss Squonk would be generous enough for an early promotion
+join "vampire left" left
+join Boss right
+Boss: You’re the most experienced therapist I have. You’ve been a behavioral therapist for at least 10 of my lifetimes.
+vampire: When will you finally enterprise this practice so we can have more liberties with how they approach business.
+You could be the head of a secondary practice if you wanted.
+Kai reminds me of a younger version of you.
+ Under the right tutelage, Kai can be brought back down to Earth and really make a difference.
+And once you get Kai to love this job again, I could use my years of wisdom to bring life back into this practice
+leave "vampire left"
+[wait time="1.9"]
+join Kai (Neutral_Work) left
+Boss Squonk sits in on one of Kai’s therapy sessions, presenting Kai with a client Boss Squonk personally selected for Kai
+After the session Kai speaks to Squonk about the difficulty of the client.
+Kai:  Well usually my clients don’t have problems like that
+Boss: He is struggling. You have to do your best to handle their problems. No issue is too big for a therapist. 
+Kai:  Well things would be less tense if I was able to get a raise or maybe just an advance?
+My hands are tied. You haven't been at the practice long enough for me to promote you yet. The contract doesn't let me.
+Kai: I didn’t want to seem demanding
+leave Boss
+leave Kai
+[wait time="1.8"]
+[background arg="res://Assets/Backgrounds/black wall.png" fade="0.0"]
+Boss: The boss squonk is highly invested in Kai's career\
+
+Squonk looks over Kai’s files and sees that his clients are all leaving due to Kai solving their issues
+Kai is going through the grocery store and inspecting the produce as well as the prices of the produce
+Kai is having a great time inspecting the fruits and smelling the spices
+Kai spots a premade item, but opts to get the ingredients to make that item themself instead
+Kai preps soup bases and stocks the fridge and freezer with them before just sipping the last one right out of the container
+[background arg="res://Assets/Backgrounds/Kai's monster office final.png" fade="0.0"]
+join Kai (Neutral_Work) left
+join Boss right
+Kai knocks on Boss Squonk’s door and the two eat lunch together in the office
+Squonk eats a protein bar instead of packing lunch
+Boss:  I’ve been thinking about what we discussed yesterday.
+Kai:  A raise?
+Boss:  Raise? No, no what you said about ‘monster’ problems.
+Kai: I didn’t mean anything by it
+Boss: No, but in a way it said more than if you did.
+Boss:  I love this job, Kai. I’ve been at this job my whole life, and at times, I lose sight of things.
+ I couldn’t see that maybe you haven’t been around monsters long enough to see how real their problems are.
+Boss: Sometimes, to the untrained eye, their problems seem material enough to appear... solvable. Isn’t that right?
+Boss:  To a candyless monster you might try to buy them candy. Maybe to a monster afraid of the dark, you’d suggest a nightlight.
+Boss: But you don’t know how it feels to be a monster. How it feels to walk down the street as a monster.
+Boss:  I wouldn’t know the slightest thing about human problems, but any therapist worth their salt knows that helping their client isn’t “fixing” them.
+Boss: It’s listening to your client. By taking them seriously. Maybe you’d even learn something about yourself in the process. I know I have.
+Kai: ....
+leave Boss
+leave Kai
+[background arg="res://Assets/Backgrounds/black wall.png" fade="0.0"]
+Kai is on the phone with Sam and the friend suggests Kai could go to culinary school
+Kai looks at the soup containers in the fridge but doesn’t eat any of them
+[Kai instead decides to eat a chocolate bar
+[wait time="1.9"]
+[background arg="res://Assets/Backgrounds/Kai's monster office final.png" fade="0.0"]
+Boss Squonk watches over Kai for a different session
+Gabriel argues with Squonk about helping these clients instead of putting Kai out of their element
+Later, Kai is having lunch with Boss Squonk when he cracks a cooking joke to try to amuse Boss Squonk
+join Kai (Neutral_Work) left
+join Boss right
+Boss: Have you ever worked at a restaurant?
+Kai:  No, but I thought about it. I looked at culinary schools and everything, but I decided on psychology
+Boss: Have you thought about it since?
+Kai: I mean, this job we have now is a good job, and I need the money now. I also spent all that time in college to get here.
+Boss:  I always thought about acting.
+Kai: Acting?
+Boss: Yeah, real Shakespearean stuff. The drama. The wooden stages.
+Boss:  I always thought I would have made for a great scorned old man. Crying on command the whole nine yards.
+Kai: What about acting in the local theatre?
+Boss:  And run a practice on the side? That’d be the end of me. 
+Boss: One day I’d like to, but I would need this place passed off to someone else if I want to do so.
+Kai: That sounds doable
+Boss:  One day
+Kai: And maybe I can do catering for the office one day too 
+They both laugh
+leave Kai
+leave Boss
+[wait time="1.6"]
+[background arg="res://Assets/Backgrounds/Kai's Room.png" fade="0.0"]
+Kai goes home and has to throw away the old fridge soup base and pulls out a soup base from the freezer
+Kai turns it into a gazpacho and mulls over applying to culinary school... and then they do
+[wait time="1.7"]
+[background arg="res://Assets/Backgrounds/Kai's monster office final.png" fade="0.0"]
+join Kai (Neutral_Work) left
+join Boss right
+Kai and Squonk eat lunch together again
+Kai: Do you ever pack a real lunch?
+Boss: Im's trying to lose weight.
+<Empty Text Event>

@@ -25,14 +25,17 @@ Notification="*uid://c0w4jvprud1li"
 directories/dch_directory={
 "Boss": "res://Characters/Boss.dch",
 "Kai": "res://Characters/Kai.dch",
+"Parents": "res://Characters/Parents.dch",
 "Werewolf": "res://Characters/Werewolf.dch",
 "alien": "res://Characters/alien.dch",
 "george_friend": "res://Characters/george_friend.dch",
 "mermaid": "res://Characters/mermaid.dch",
 "smallfoot": "res://Characters/smallfoot.dch",
-"vampire": "res://Characters/vampire.dch"
+"vampire": "res://Characters/vampire.dch",
+"vampire left": "res://Characters/vampire left.dch"
 }
 directories/dtl_directory={
+"mastertimeline": "res://Timelines/mastertimeline.dtl",
 "timeline1": "res://Timelines/timeline1.dtl",
 "timeline_friend": "res://Timelines/timeline_friend.dtl"
 }
